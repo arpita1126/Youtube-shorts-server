@@ -6,7 +6,9 @@ import eventsRouter from "./routes/events"
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin :"https://youtube-shorts-client.vercel.app"
+}))
 app.use(express.json())
 
 if (process.env.NODE_ENV !== "production") {
