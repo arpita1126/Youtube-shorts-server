@@ -7,6 +7,9 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "types": ["node", "express", "cors"],
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
 }
